@@ -1,0 +1,1 @@
+document.write("<h2>Tulisan Ini Dari File .js menggunakan JavaScript</h2>") ;

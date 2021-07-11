@@ -1,0 +1,17 @@
+<html>
+<head>
+</head>
+<body>
+<script language="JavaScript" type="text/javascript">
+function diskon(hargaAwal)
+{
+var diskon;
+diskon = 0.5 * hargaAwal;
+hargaDiskon = hargaAwal - diskon;
+return hargaDiskon;
+}
+var harga = prompt("Masukkan harga mula-mula (Rp) : ");
+document.write("Harga stlh diskon 50% : Rp. " + diskon(harga));
+</script>
+</body>
+</html>
